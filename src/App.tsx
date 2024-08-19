@@ -3,6 +3,7 @@ import "./styles.css";
 
 import Requirements from "./Requirements";
 import UserList from "./UserList";
+import React from "react";
 
 // Примеры вызова функций, в консоли можно увидеть возвращаемые результаты
 requestUsers({ name: "", age: "", limit: 4, offset: 0 }).then(console.log);
